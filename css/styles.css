@@ -168,7 +168,7 @@ p {
 
 .features-list {
     display: flex;
-    justify-content: space-between;
+    column-gap: 24px;
 }
 
 .features-item {
@@ -268,9 +268,11 @@ p {
 
 .portfolio-list-item {
     background-color: #ffffff;
+    max-width: 360px;
+    width: 100%;
 }
 
-.portfolio-list-item>img {
+.portfolio-list-img {
     width: 100%;
     display: block;
 }
